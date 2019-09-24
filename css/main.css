@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: bisque;
+    border-bottom: none;
+    z-index: 200;
+    height: 50px;
+}
+
+.headline {
+  position: relative;
+  padding-left: calc((100% - 600px)/2);
+  margin: 0 auto;
+}
+
+.feature-section {
+  padding: 5em 15em 2em 15em;
+}
+
+.copyright {
+  display: inline-block;
+  text-align: justify;
+}
+
+.headline-image {
+  position: relative;
+  width: 100%
+}
+
+.container {
+  width: 720px;
+  height: 440px;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.format-text {
+  width: 25em;
+  float: left;
+  margin-left: calc((100% - 600px)/2);
+  text-align: justify;
+}
+.side-text-design {
+  float: right;
+  text-align: justify;
+  width: 12em;
+}
+
+.footer-section {
+  padding: 5em 15em 2em 15em;
+  display: inline-block;
+}
+
+.bottoom-section {
+  width: 210px;
+  display: inline-block;
+  position: relative;
+  
+}
