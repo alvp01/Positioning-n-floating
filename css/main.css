@@ -28,6 +28,5 @@ body {
   width: 12em;
 }
 .footer-section {
-  float: left;
-  border: 1px solid;
+  clear: both;
 }
