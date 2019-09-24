@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+.nav-bar {
+  height: 50px;
+  background-color: bisque
+}
+
+.offset {
+  width: 720px;
+  height: 440px;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.format-text {
+  width: 25em;
+  float: left;
+  margin-left: calc((100% - 600px)/2);
+  text-align: justify;
+}
+.side-text-design {
+  float: right;
+  text-align: justify;
+  width: 12em;
+}
+.footer-section {
+  clear: both;
+}
