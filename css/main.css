@@ -36,23 +36,34 @@ body {
 }
 
 .container {
-  width: 720px;
-  height: 440px;
+  width: 70%;
+  /* height: 440px; */
   margin: 0 auto;
   margin-top: 2em;
   padding: 1em;
 }
 
 .format-text {
-  width: 25em;
+  width: 28em;
   float: left;
   margin-left: calc((100% - 600px)/2);
   text-align: justify;
+  font-size: 20px;
 }
 .side-text-design {
-  float: right;
+  /* float: right; */
   text-align: justify;
   width: 12em;
+}
+
+.box1{
+  float: right;
+}
+
+.box2{
+  clear: right;
+  position: relative;
+  left: 100%;
 }
 
 .footer-section {
@@ -64,5 +75,5 @@ body {
   width: 210px;
   display: inline-block;
   position: relative;
-  
+
 }
