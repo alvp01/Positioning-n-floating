@@ -1,6 +1,10 @@
+#nav-bar{
+  background-color: pink;
+  height: 100px;
+  width: 100%;
+}
 .article-body{
-  justify-content: center;
-  text-align: center;
+  align: center;
   overflow: hidden;
   width: 100%;
   background-color: green;
@@ -24,4 +28,14 @@
   background-color: blue;
   width: 1200px;
   height: 800px;
+}
+
+.article-text{
+  align-self: center;
+  width: 40%;
+  /* clear: right; */
+  background-color: yellow;
+  height: 1000px;
+  position: relative;
+  left: 30%;
 }
