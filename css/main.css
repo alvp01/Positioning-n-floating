@@ -61,9 +61,10 @@ body {
 }
 
 .box2{
-  clear: right;
-  position: relative;
-  left: 100%;
+  float: right;
+  /* clear: right; */
+  /* position: relative; */
+  /* left: 100%; */
 }
 
 .footer-section {
