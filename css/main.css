@@ -78,3 +78,15 @@ body {
   position: relative;
 
 }
+
+.inflation{
+  margin-left: 17%;
+  float: left;
+}
+.inflation-img{
+  width: 75%;
+}
+.the-theory-of-inflation{
+  width: 70%;
+  display: inline;
+}
