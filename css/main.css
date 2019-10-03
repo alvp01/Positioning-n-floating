@@ -83,10 +83,15 @@ body {
   margin-left: 17%;
   float: left;
 }
-.inflation-img{
-  width: 75%;
+.the-inflation{
+  width: 85%;
+  background-image: url("./assets/inflation-945.png");
 }
 .the-theory-of-inflation{
-  width: 70%;
-  display: inline;
+  width: 60%;
+}
+
+.inflation-text{
+  width: 20%;
+  float: left;
 }
