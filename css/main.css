@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .main-header {
     position: fixed;
@@ -9,10 +9,15 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: bisque;
-    border-bottom: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
     z-index: 200;
     height: 50px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
 }
 
 .headline {
@@ -21,9 +26,49 @@ body {
   margin: 0 auto;
 }
 
+.buttons{
+  float: right;
+}
+.subscribe-btn, .login-btn{
+  width: 140px;
+  height: 35px;
+  padding: 5px 5px;
+  background-color: blue;
+  color: white;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.icons{
+  margin: 5px 10px 5px 10px;;
+}
+.icons img{
+  width: 25px;
+  height: 25px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.icons a{
+  padding: 10px 25px 0 35px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  font-weight: bold;
+
+}
+
+.nyt-logo img{
+  width: 200px;
+  height: 35px;
+  padding-top: 5px;
+}
+
 .feature-section {
   padding: 5em 15em 2em 15em;
 }
+
 
 .copyright {
   display: inline-block;
@@ -37,7 +82,6 @@ body {
 
 .container {
   width: 70%;
-  /* height: 440px; */
   margin: 0 auto;
   margin-top: 2em;
   padding: 1em;
@@ -51,47 +95,186 @@ body {
   font-size: 20px;
 }
 .side-text-design {
-  /* float: right; */
   text-align: justify;
   width: 12em;
+  margin-top: 15rem;
 }
 
 .box1{
   float: right;
+
 }
 
 .box2{
   float: right;
-  /* clear: right; */
-  /* position: relative; */
-  /* left: 100%; */
+  margin-top: 25rem;
 }
 
+.aside-subs-btn{
+  width: 12em;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2em 0 0 1em;
+}
 .footer-section {
-  padding: 5em 15em 2em 15em;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 5em 5em 2em 0em;
   display: inline-block;
+  margin-left: calc((100% - 1300px)/2);
 }
 
 .bottoom-section {
-  width: 210px;
+  width: 400px;
   display: inline-block;
   position: relative;
+  border-right: 1px solid grey;
+  padding: 0 8px 0 5px;
+}
 
+.bottoom-section-last {
+  width: 400px;
+  display: inline-block;
+  position: relative;
+  padding: 5px;
 }
 
 .inflation{
-  margin-left: 17%;
+  margin-left: 10%;
   float: left;
+
 }
-.the-inflation{
-  width: 85%;
-  background-image: url("./assets/inflation-945.png");
+
+.inflation-img{
+  width: 1080px;
+  height: 720px;
+
 }
+
 .the-theory-of-inflation{
   width: 60%;
 }
 
 .inflation-text{
   width: 20%;
-  float: left;
+}
+
+.social-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.share-icons{
+  width: 20px;
+  height: 20px;
+  padding: 0 5px;
+}
+
+.fb{
+  width: 15px;
+  height: 15px;
+}
+
+.lkid{
+  width: 23px;
+  height: 23px;
+}
+
+.social-img{
+  display: inline-flex;
+
+}
+ul{
+  list-style: none;
+}
+.article-img{
+  margin-left: 26%;
+}
+
+.social-list-end{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.social-img-end{
+  display: inline-flex;
+}
+
+button[name="comments"]{
+  color: white;
+  background-color: blue;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.end-icons{
+  width: 40px;
+  height: 40px;
+}
+
+.fb-end{
+  margin-top: 2px;
+  height: 31px;
+  width: 31px;
+}
+
+.lkid-end{
+  width: 45px;
+  height: 45px;
+}
+
+.thumbnail-image{
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-footer-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc((100% - 1300px)/2);
+}
+
+.footer-links {
+  margin-left: 10em;
+}
+
+.one {
+  margin-left: -2.4em !important;
+}
+.bottom-links-logo img {
+  width: 200px;
+  height: 35px;
+  margin-left: calc((100% - 1300px)/2);
+}
+
+.listings ul {
+  list-style: none;
+}
+
+.links-header  {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quick-links  {
+  text-decoration: none;
+  color: grey;
+}
+
+.links-bottom {
+  padding-bottom: 0.5em;
+}
+
+.last {
+  border-left: 1px solid grey;
 }
