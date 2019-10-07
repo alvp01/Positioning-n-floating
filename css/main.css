@@ -191,7 +191,7 @@ ul{
   list-style: none;
 }
 .article-img{
-  margin-left: 26%;
+  margin-left:calc((100% - 638px)/2);
 }
 
 .social-list-end{
@@ -268,13 +268,20 @@ button[name="comments"]{
 
 .quick-links  {
   text-decoration: none;
-  color: grey;
+  color: black;
+  text-transform: capitalize;
 }
-
+.quick-links:hover{
+  text-decoration: underline;
+}
 .links-bottom {
   padding-bottom: 0.5em;
 }
 
 .last {
   border-left: 1px solid grey;
+}
+
+.copyright h2{
+  font-family: ‘Times New Roman’, Times, serif;
 }
