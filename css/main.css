@@ -1,74 +1,77 @@
 body {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
-}
-.main-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    border-bottom: 1px solid grey;
-    z-index: 200;
-    height: 50px;
+  margin: 0;
+  padding: 0;
 }
 
-.header-content{
+.main-header {
+  background-color: white;
+  border-bottom: 1px solid grey;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
 }
 
 .headline {
-  position: relative;
-  padding-left: calc((100% - 600px)/2);
   margin: 0 auto;
+  padding-left: calc((100% - 600px) / 2);
+  position: relative;
 }
 
-.buttons{
+.buttons {
   float: right;
 }
-.subscribe-btn, .login-btn{
-  width: 140px;
-  height: 35px;
-  padding: 5px 5px;
+
+.subscribe-btn,
+.login-btn {
   background-color: blue;
-  color: white;
-  margin-top: 5px;
   border-radius: 5px;
-}
-
-.icons{
-  margin: 5px 10px 5px 10px;;
-}
-.icons img{
-  width: 25px;
-  height: 25px;
-  padding: 5px 10px;
+  color: white;
+  height: 35px;
   margin-top: 5px;
+  padding: 5px 5px;
+  width: 140px;
 }
-.icons a{
-  padding: 10px 25px 0 35px;
-  text-transform: uppercase;
-  font-size: 15px;
-  text-decoration: none;
-  position: absolute;
+
+.icons {
+  margin: 5px 10px 5px 10px;
+}
+
+.icons img {
+  height: 25px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  width: 25px;
+}
+
+.icons a {
   color: black;
+  font-size: 15px;
   font-weight: bold;
-
+  padding: 10px 25px 0 35px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.nyt-logo img{
-  width: 200px;
+.nyt-logo img {
   height: 35px;
   padding-top: 5px;
+  width: 200px;
 }
 
 .feature-section {
   padding: 5em 15em 2em 15em;
 }
-
 
 .copyright {
   display: inline-block;
@@ -77,170 +80,168 @@ body {
 
 .headline-image {
   position: relative;
-  width: 100%
+  width: 100%;
 }
 
 .container {
-  width: 70%;
   margin: 0 auto;
-  margin-top: 2em;
   padding: 1em;
+  width: 70%;
 }
 
 .format-text {
-  width: 28em;
   float: left;
-  margin-left: calc((100% - 600px)/2);
-  text-align: justify;
   font-size: 20px;
+  margin-left: calc((100% - 600px) / 2);
+  text-align: justify;
+  width: 28em;
 }
+
 .side-text-design {
+  margin-top: 15rem;
   text-align: justify;
   width: 12em;
-  margin-top: 15rem;
 }
 
-.box1{
+.box1 {
   float: right;
-
 }
 
-.box2{
+.box2 {
   float: right;
   margin-top: 25rem;
 }
 
-.aside-subs-btn{
-  width: 12em;
+.aside-subs-btn {
   background: blue;
-  color: white;
   border-radius: 5px;
-  padding: 5px;
+  color: white;
   margin: 2em 0 0 1em;
+  padding: 5px;
+  width: 12em;
 }
+
 .footer-section {
-  border-top: 1px solid grey;
   border-bottom: 1px solid grey;
-  padding: 5em 5em 2em 0em;
+  border-top: 1px solid grey;
   display: inline-block;
-  margin-left: calc((100% - 1300px)/2);
+  margin-left: calc((100% - 1300px) / 2);
+  padding: 5em 5em 2em 0;
 }
 
 .bottoom-section {
-  width: 400px;
-  display: inline-block;
-  position: relative;
   border-right: 1px solid grey;
+  display: inline-block;
   padding: 0 8px 0 5px;
+  position: relative;
+  width: 400px;
 }
 
 .bottoom-section-last {
-  width: 400px;
   display: inline-block;
-  position: relative;
   padding: 5px;
+  position: relative;
+  width: 400px;
 }
 
-.inflation{
-  margin-left: 10%;
+.inflation {
   float: left;
-
+  margin-left: 10%;
 }
 
-.inflation-img{
-  width: 1080px;
+.inflation-img {
   height: 720px;
-
+  width: 1080px;
 }
 
-.the-theory-of-inflation{
+.the-theory-of-inflation {
   width: 60%;
 }
 
-.inflation-text{
+.inflation-text {
   width: 20%;
 }
 
-.social-list{
+.social-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.share-icons{
-  width: 20px;
+.share-icons {
   height: 20px;
   padding: 0 5px;
+  width: 20px;
 }
 
-.fb{
-  width: 15px;
+.fb {
   height: 15px;
+  width: 15px;
 }
 
-.lkid{
+.lkid {
   width: 23px;
   height: 23px;
 }
 
-.social-img{
+.social-img {
   display: inline-flex;
-
 }
-ul{
+
+ul {
   list-style: none;
 }
-.article-img{
-  margin-left:calc((100% - 638px)/2);
+
+.article-img {
+  margin-left: calc((100% - 638px) / 2);
 }
 
-.social-list-end{
+.social-list-end {
   display: flex;
-  justify-content: space-between;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.social-img-end{
+.social-img-end {
   display: inline-flex;
 }
 
-button[name="comments"]{
-  color: white;
+button[name="comments"] {
   background-color: blue;
-  font-size: 15px;
-  width: 200px;
-  height: 40px;
   border-radius: 5px;
-  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
   font-weight: bold;
-}
-
-.end-icons{
-  width: 40px;
   height: 40px;
+  text-transform: uppercase;
+  width: 200px;
 }
 
-.fb-end{
-  margin-top: 2px;
+.end-icons {
+  height: 40px;
+  width: 40px;
+}
+
+.fb-end {
   height: 31px;
+  margin-top: 2px;
   width: 31px;
 }
 
-.lkid-end{
-  width: 45px;
+.lkid-end {
   height: 45px;
+  width: 45px;
 }
 
-.thumbnail-image{
+.thumbnail-image {
   margin: 0;
   padding: 0;
 }
 
-
 .main-footer-links {
   display: flex;
   flex-direction: row;
-  margin-left: calc((100% - 1300px)/2);
+  margin-left: calc((100% - 1300px) / 2);
 }
 
 .footer-links {
@@ -250,30 +251,33 @@ button[name="comments"]{
 .one {
   margin-left: -2.4em !important;
 }
+
 .bottom-links-logo img {
-  width: 200px;
   height: 35px;
-  margin-left: calc((100% - 1300px)/2);
+  margin-left: calc((100% - 1300px) / 2);
+  width: 200px;
 }
 
 .listings ul {
   list-style: none;
 }
 
-.links-header  {
+.links-header {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.quick-links  {
-  text-decoration: none;
+.quick-links {
   color: black;
+  text-decoration: none;
   text-transform: capitalize;
 }
-.quick-links:hover{
+
+.quick-links:hover {
   text-decoration: underline;
 }
+
 .links-bottom {
   padding-bottom: 0.5em;
 }
@@ -282,6 +286,6 @@ button[name="comments"]{
   border-left: 1px solid grey;
 }
 
-.copyright h2{
+.copyright h2 {
   font-family: ‘Times New Roman’, Times, serif;
 }
