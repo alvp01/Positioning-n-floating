@@ -40,7 +40,6 @@ body {
 }
 
 .icons{
-  /* float: left; */
   margin: 5px 10px 5px 10px;;
 }
 .icons img{
@@ -60,9 +59,6 @@ body {
 
 }
 
-.nyt-logo{
-  /* float: right; */
-}
 .nyt-logo img{
   width: 200px;
   height: 35px;
@@ -86,7 +82,6 @@ body {
 
 .container {
   width: 70%;
-  /* height: 440px; */
   margin: 0 auto;
   margin-top: 2em;
   padding: 1em;
@@ -100,7 +95,6 @@ body {
   font-size: 20px;
 }
 .side-text-design {
-  /* float: right; */
   text-align: justify;
   width: 12em;
   margin-top: 15rem;
@@ -126,7 +120,7 @@ body {
 }
 .footer-section {
   border-top: 1px solid grey;
-  border-bottom: : 1px solid grey;
+  border-bottom: 1px solid grey;
   padding: 5em 5em 2em 0em;
   display: inline-block;
   margin-left: calc((100% - 1300px)/2);
@@ -159,22 +153,12 @@ body {
 
 }
 
-/* .the-inflation img{
-  width: 1200px;
-  height: 800px;
-  /* width: 85%; */
-  /* position: absolute;
-  background-image: url("../assets/inflation-945.png") no-repeat;
-  background-size: cover; */
-}
 .the-theory-of-inflation{
   width: 60%;
 }
 
 .inflation-text{
   width: 20%;
-  /* position: absolute;
-  right: 100px; */
 }
 
 .social-list{
@@ -250,4 +234,47 @@ button[name="comments"]{
 .thumbnail-image{
   margin: 0;
   padding: 0;
+}
+
+
+.main-footer-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc((100% - 1300px)/2);
+}
+
+.footer-links {
+  margin-left: 10em;
+}
+
+.one {
+  margin-left: -2.4em !important;
+}
+.bottom-links-logo img {
+  width: 200px;
+  height: 35px;
+  margin-left: calc((100% - 1300px)/2);
+}
+
+.listings ul {
+  list-style: none;
+}
+
+.links-header  {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quick-links  {
+  text-decoration: none;
+  color: grey;
+}
+
+.links-bottom {
+  padding-bottom: 0.5em;
+}
+
+.last {
+  border-left: 1px solid grey;
 }
