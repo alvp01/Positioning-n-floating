@@ -286,6 +286,18 @@ button[name="comments"] {
   border-left: 1px solid grey;
 }
 
-.copyright h2 {
+.copyright-footer {
   font-family: ‘Times New Roman’, Times, serif;
+}
+
+footer{
+  background-color: white;
+  border-top: 1px solid grey;
+  height: 50px;
+  left: 0;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 200;
 }
