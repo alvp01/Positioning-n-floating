@@ -1,0 +1,353 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main-header {
+  background-color: white;
+  border-bottom: 1px solid grey;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  margin: 0 auto;
+  padding-left: calc((100% - 600px) / 2);
+  position: relative;
+}
+
+.buttons {
+  float: right;
+}
+
+.subscribe-btn,
+.login-btn {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+  margin-top: 5px;
+  padding: 5px 5px;
+  width: 140px;
+}
+
+.icons {
+  margin: 5px 10px 5px 10px;
+}
+
+.icons img {
+  height: 25px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  width: 25px;
+}
+
+.icons a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 25px 0 35px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nyt-logo img {
+  height: 35px;
+  padding-top: 5px;
+  width: 200px;
+}
+
+.feature-section {
+  padding: 5em 15em 2em 15em;
+}
+
+.copyright {
+  display: inline-block;
+  text-align: justify;
+}
+
+.headline-image {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1em;
+  width: 70%;
+}
+
+.format-text {
+  float: left;
+  font-size: 20px;
+  margin-left: calc((100% - 600px) / 2);
+  text-align: justify;
+  width: 28em;
+}
+
+.side-text-design {
+  margin-top: 15rem;
+  text-align: justify;
+  width: 12em;
+}
+
+.box1 {
+  float: right;
+}
+
+.box2 {
+  float: right;
+  margin-top: 25rem;
+}
+
+.aside-subs-btn {
+  background: blue;
+  border-radius: 5px;
+  color: white;
+  margin: 2em 0 0 1em;
+  padding: 5px;
+  width: 12em;
+}
+
+.footer-section {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  display: inline-block;
+  margin-left: calc((100% - 1300px) / 2);
+  padding: 5em 5em 2em 0;
+}
+
+.bottoom-section {
+  border-right: 1px solid grey;
+  display: inline-block;
+  padding: 0 8px 0 5px;
+  position: relative;
+  width: 400px;
+}
+
+.bottoom-section-last {
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  width: 400px;
+}
+
+.inflation {
+  float: left;
+  margin-left: 10%;
+}
+
+.inflation-img {
+  height: 720px;
+  width: 1080px;
+}
+
+.the-theory-of-inflation {
+  width: 60%;
+}
+
+.inflation-text {
+  width: 20%;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.share-icons {
+  height: 20px;
+  padding: 0 5px;
+  width: 20px;
+}
+
+.fb {
+  height: 15px;
+  width: 15px;
+}
+
+.lkid {
+  width: 23px;
+  height: 23px;
+}
+
+.social-img {
+  display: inline-flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.article-img {
+  margin-left: calc((100% - 638px) / 2);
+}
+
+.social-list-end {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.social-img-end {
+  display: inline-flex;
+}
+
+button[name="comments"] {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.end-icons {
+  height: 40px;
+  width: 40px;
+}
+
+.fb-end {
+  height: 31px;
+  margin-top: 2px;
+  width: 31px;
+}
+
+.lkid-end {
+  height: 45px;
+  width: 45px;
+}
+
+.thumbnail-image {
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc((100% - 1300px) / 2);
+}
+
+.footer-links {
+  margin-left: 10em;
+}
+
+.one {
+  margin-left: -2.4em !important;
+}
+
+.bottom-links-logo img {
+  height: 35px;
+  margin-left: calc((100% - 1300px) / 2);
+  width: 200px;
+}
+
+.listings ul {
+  list-style: none;
+}
+
+.links-header {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quick-links {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.quick-links:hover {
+  text-decoration: underline;
+}
+
+.links-bottom {
+  padding-bottom: 0.5em;
+}
+
+.last {
+  border-left: 1px solid grey;
+}
+
+.copyright-footer {
+  font-family: ‘Times New Roman’, Times, serif;
+}
+
+.graphic-text {
+  position: absolute;
+  top: 3060px;
+  left: 22.0436%;
+  width: 228px;
+}
+
+.gh-two {
+  left: 39.0436%;
+}
+
+.gh-three {
+  left: 54.0436%;
+}
+
+.gh-four {
+  left: 72.0436%;
+}
+
+.gh-five {
+  top: 3400px;
+}
+
+.gh-six {
+  top: 3400px;
+  left: 39.0436%;
+}
+
+.gh-seven {
+  top: 3400px;
+  left: 54.0436%;
+}
+
+.gh-eight {
+  top: 3400px;
+  left: 72.0436%;
+}
+
+.graphic-bold {
+  font-size: 12px;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid grey;
+  height: 50px;
+  left: 0;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 200;
+}
+
+.story-heading {
+  font-weight: bolder;
+  font-size: 20px;
+}
